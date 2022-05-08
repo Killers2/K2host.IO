@@ -14,7 +14,11 @@
     <PackageTags>K2host, IO, Files, Folders, Directories</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>2.0.6</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\Development\K2host Works\K2host.Packages\K2host.IO\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
